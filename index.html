@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MOAZEID — موسوعة عربية لتعلّم البرمجة وعلوم الحاسوب والأمن السيبراني بشكل قانوني وآمن.">
+  <title>MOAZEID | موسوعة البرمجة</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">M<span>C</span></span><span>MOAZEID</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+    <nav id="nav">
+      <a class="active" href="#home">الرئيسية</a><a href="#tracks">مسارات التعلّم</a><a href="#lessons">الدروس</a><a href="#lab">مختبر الكود</a><a href="#projects">المشروعات</a>
+    </nav>
+    <a class="top-cta" href="#tracks">ابدأ التعلّم <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><i></i> موسوعة تقنية عربية</div>
+        <h1>افهم التقنية.<br><span>واكتب المستقبل.</span></h1>
+        <p>تعلّم البرمجة وعلوم الحاسوب والأمن السيبراني خطوة بخطوة، من أول سطر كود إلى بناء مشروعات حقيقية.</p>
+        <div class="hero-actions"><a class="btn primary" href="#tracks">استكشف المسارات <b>←</b></a><a class="btn ghost" href="#lab">جرّب الكود الآن</a></div>
+        <div class="stats"><div><strong>06</strong><span>مسارات تقنية</span></div><div><strong>100%</strong><span>تعلّم عملي</span></div><div><strong>∞</strong><span>فرص للتجربة</span></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-top"><span><i class="dot green"></i> SYSTEM ONLINE</span><span>MOAZ_OS / 01</span></div>
+        <div class="code-window">
+          <div class="window-head"><span class="window-dots"><i></i><i></i><i></i></span><span>main.py</span><span>PY</span></div>
+          <pre><code><em>01</em> <b>def</b> build_future():
+<em>02</em>     skills = [<s>"learn"</s>,
+<em>03</em>               <s>"practice"</s>,
+<em>04</em>               <s>"create"</s>]
+<em>05</em>     <b>for</b> skill <b>in</b> skills:
+<em>06</em>         practice(skill)
+<em>07</em>     <b>return</b> <s>"Keep building."</s>
+
+<em>08</em> print(build_future())<span class="cursor">▋</span></code></pre>
+          <div class="code-status"><span><i class="dot green"></i> لا توجد أخطاء</span><span>UTF-8 · Python</span></div>
+        </div>
+        <div class="floating-chip chip-a"><span>⌘</span> تعلّم بالممارسة</div>
+        <div class="floating-chip chip-b"><span>◈</span> ابنِ مشروعك</div>
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="موضوعات"><span>PYTHON</span><b>✳</b><span>WEB DEVELOPMENT</span><b>✳</b><span>CYBERSECURITY</span><b>✳</b><span>DATA & AI</span><b>✳</b><span>LINUX</span></section>
+
+    <section class="section" id="tracks">
+      <div class="section-heading"><div><div class="eyebrow">خارطة الطريق</div><h2>اختَر مسارك التقني</h2><p>مسارات مرتّبة تبدأ بالمفاهيم الأساسية ثم تنتقل إلى التطبيق والمشروعات.</p></div><a class="text-link" href="#lessons">شاهد الدروس <span>←</span></a></div>
+      <div class="track-grid">
+        <article class="track-card green-card"><div class="track-icon">Py</div><div class="track-meta">01 / PROGRAMMING</div><h3>Python من الصفر</h3><p>المتغيرات، الشروط، الحلقات، الدوال، الملفات، ثم تطبيقات عملية.</p><div class="tags"><span>مبتدئ</span><span>تمارين</span></div><a href="#lessons">استكشف المسار <b>↗</b></a></article>
+        <article class="track-card blue-card"><div class="track-icon">‹/›</div><div class="track-meta">02 / WEB</div><h3>تطوير الويب</h3><p>HTML لبناء المحتوى، وCSS للتنسيق، وJavaScript للتفاعل.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div><a href="#lessons">استكشف المسار <b>↗</b></a></article>
+        <article class="track-card purple-card"><div class="track-icon">⌘</div><div class="track-meta">03 / COMPUTER SCIENCE</div><h3>علوم الحاسوب</h3><p>الخوارزميات، هياكل البيانات، أنظمة التشغيل، والشبكات.</p><div class="tags"><span>مفاهيم</span><span>تطبيق</span></div><a href="#lessons">استكشف المسار <b>↗</b></a></article>
+        <article class="track-card orange-card"><div class="track-icon">⛨</div><div class="track-meta">04 / CYBERSECURITY</div><h3>الأمن السيبراني</h3><p>الشبكات والتشفير وأساسيات حماية الأنظمة واختبارها في بيئات مصرح بها.</p><div class="tags"><span>دفاع</span><span>مختبر آمن</span></div><a href="#security">استكشف المسار <b>↗</b></a></article>
+        <article class="track-card cyan-card"><div class="track-icon">AI</div><div class="track-meta">05 / DATA & AI</div><h3>البيانات والذكاء الاصطناعي</h3><p>تنظيف البيانات، الإحصاء، مبادئ تعلّم الآلة وتقييم النماذج.</p><div class="tags"><span>بيانات</span><span>نماذج</span></div><a href="#lessons">استكشف المسار <b>↗</b></a></article>
+        <article class="track-card pink-card"><div class="track-icon">$_</div><div class="track-meta">06 / LINUX & TOOLS</div><h3>Linux وأدوات المطوّر</h3><p>سطر الأوامر، Git، إدارة الملفات، وأدوات تطوير المشاريع.</p><div class="tags"><span>Terminal</span><span>Git</span></div><a href="#lessons">استكشف المسار <b>↗</b></a></article>
+      </div>
+    </section>
+
+    <section class="section split-section" id="lessons">
+      <div class="lesson-copy"><div class="eyebrow">درس نموذجي · PYTHON</div><h2>افهم الفكرة،<br><span>ثم اكتب الكود.</span></h2><p>كل درس في النسخة التعليمية الكاملة يجب أن يحتوي على تعريف دقيق، ومثال واضح، وتفسير للنتيجة، وتمرين يختبر فهمك.</p><ul class="check-list"><li>شرح المصطلحات التقنية بالعربية</li><li>أمثلة صغيرة قابلة للتعديل</li><li>تمارين من السهل إلى المتقدم</li></ul><a class="btn primary" href="#lab">جرّب المثال <b>←</b></a></div>
+      <div class="lesson-panel"><div class="panel-head"><span>المتغيرات في Python</span><span class="pill">الدرس 01</span></div><p class="muted">المتغير اسم يشير إلى قيمة يمكن للبرنامج استخدامها.</p><pre class="lesson-code"><code><b>name</b> = <s>"Moaz"</s>
+<b>age</b> = <n>16</n>
+
+<b>print</b>(<s>f"Hello {name}"</s>)
+<b>print</b>(age)</code></pre><div class="output"><span>المخرجات</span><code>Hello Moaz<br>16</code></div><div class="note"><b>معلومة دقيقة</b><p>في Python، علامة <code>=</code> تُسنِد قيمة إلى اسم؛ وليست اختبارًا للمساواة. للمقارنة نستخدم <code>==</code>.</p></div></div>
+    </section>
+
+    <section class="section lab-section" id="lab">
+      <div class="section-heading"><div><div class="eyebrow">تعلّم تفاعلي</div><h2>مختبر الكود</h2><p>عدّل المثال واضغط «تشغيل المثال» لرؤية النتيجة مباشرةً. هذا عرض تجريبي آمن داخل الصفحة.</p></div><span class="live-label"><i class="dot green"></i> DEMO MODE</span></div>
+      <div class="lab">
+        <div class="editor"><div class="editor-top"><span>example.js</span><span>JavaScript</span></div><textarea id="codeInput" spellcheck="false" aria-label="محرر الكود">const name = "Moaz";
+const topic = "programming";
+console.log(`Hello ${name}!`);
+console.log(`Let's learn ${topic}.`);</textarea><div class="editor-actions"><button class="btn primary" id="runCode">▶ تشغيل المثال</button><button class="btn ghost" id="resetCode">إعادة المثال</button><span id="runStatus">جاهز للتجربة</span></div></div>
+        <div class="console"><div class="console-top"><span><i class="dot green"></i> وحدة الإخراج</span><button id="clearOutput">مسح</button></div><pre id="output">اضغط «تشغيل المثال» لعرض النتيجة هنا.</pre><div class="console-foot">ملاحظة: هذا نموذج مبسّط، ولا ينفّذ JavaScript عشوائيًا من المستخدم.</div></div>
+      </div>
+    </section>
+
+    <section class="section security-section" id="security"><div class="security-banner"><div><div class="eyebrow">SECURITY BY DESIGN</div><h2>تعلّم الأمن السيبراني<br>بمسؤولية ووعي.</h2><p>ابدأ بفهم الشبكات وأنظمة التشغيل ومبادئ الحماية، وطبّق داخل مختبرات تملكها أو لديك تصريح لاختبارها.</p><a class="btn primary" href="#tracks">ابدأ الأساسيات <b>←</b></a></div><div class="shield-art"><div class="shield">⌑</div><span class="ring ring1"></span><span class="ring ring2"></span><span class="ring ring3"></span><div class="security-label">AUTHORIZED LABS ONLY</div></div></div></section>
+
+    <section class="section" id="projects"><div class="section-heading"><div><div class="eyebrow">من المعرفة إلى التطبيق</div><h2>مشروعات تبني بها خبرتك</h2><p>ابدأ بمشروعات صغيرة، ثم طوّرها خطوة بخطوة.</p></div></div><div class="project-grid"><article class="project-card"><div class="project-num">01</div><div><h3>قائمة مهام ذكية</h3><p>HTML وCSS وJavaScript وLocal Storage.</p><span class="project-level">مبتدئ</span></div><span class="project-arrow">↗</span></article><article class="project-card"><div class="project-num">02</div><div><h3>لوحة بيانات تفاعلية</h3><p>قراءة بيانات تجريبية وعرضها في رسوم.</p><span class="project-level">متوسط</span></div><span class="project-arrow">↗</span></article><article class="project-card"><div class="project-num">03</div><div><h3>مراقبة سجلات محلية</h3><p>تعلّم تحليل سجلات تدريبية واكتشاف الأنماط.</p><span class="project-level">متوسط</span></div><span class="project-arrow">↗</span></article></div></section>
+
+    <section class="sources"><div><div class="eyebrow">مراجع موثوقة</div><h2>المعلومة التقنية تبدأ من المصدر.</h2><p>روابط رسمية للرجوع إلى التفاصيل والتحديثات.</p></div><div class="source-links"><a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs <span>↗</span></a><a href="https://docs.python.org/3/" target="_blank" rel="noopener">Python Documentation <span>↗</span></a><a href="https://owasp.org/" target="_blank" rel="noopener">OWASP <span>↗</span></a><a href="https://git-scm.com/doc" target="_blank" rel="noopener">Git Documentation <span>↗</span></a></div></section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-mark">M<span>C</span></span><span>MOAZEID</span></a><p>موسوعة عربية للبرمجة وعلوم الحاسوب.</p><div class="footer-links"><a href="#tracks">المسارات</a><a href="#lessons">الدروس</a><a href="#security">الأمن السيبراني</a><a href="#projects">المشروعات</a></div><small>© 2026 Moaz Eid — جميع الحقوق محفوظة. المحتوى التعليمي يُراجع ويُحدّث باستمرار.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
